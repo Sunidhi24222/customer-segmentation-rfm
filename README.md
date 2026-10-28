@@ -171,7 +171,12 @@ The Power BI report has four pages:
 | **Product_Analysis** | Top 10 products by revenue, Pareto chart of revenue concentration, units sold |
 | **Customer_Detail** | Customer-level table with RFM scores, filterable by segment and country |
 
-![Dashboard preview](Screenshots.png)
+![Dashboard preview]
+(powerbi/Screenshots/Executive_Overview.png)
+(powerbi/Screenshots/RFM_Segmentation.png)
+(powerbi/Screenshots/Product_Analysis.png)
+(powerbi/Screenshots/Customer_Detail.png)
+
 
 ---
 
