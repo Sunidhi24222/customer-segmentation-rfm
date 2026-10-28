@@ -49,7 +49,6 @@ The project answers these questions:
 | **Encoding** | LATIN1 |
 
 The raw CSV is not stored in this repository because of its size and licensing.
-See [`data/raw/README.md`](data/raw/README.md) for download instructions.
 
 ---
 
