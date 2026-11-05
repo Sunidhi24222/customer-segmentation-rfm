@@ -168,7 +168,7 @@ The Power BI report has four pages:
 |---|---|
 | **Executive_Overview** | KPIs, monthly revenue and orders, revenue by country |
 | **RFM_Segmentation** | Customers and revenue per segment, segment summary table, recency vs monetary |
-| **Product_Analysis** | Top 10 products by revenue, Pareto chart of revenue concentration, units sold |
+| **Product_Analysis** | Top 10 products by revenue and units sold , units sold |
 | **Customer_Detail** | Customer-level table with RFM scores, filterable by segment and country |
 
 ![Executive Overview](powerbi/Screenshots/Executive_Overview.png)
