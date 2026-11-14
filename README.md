@@ -213,9 +213,7 @@ See [`docs/key_insights.md`](docs/key_insights.md) for recommended actions for e
   in `docs/data_cleaning_log.md`.
 - CustomerIDs were missing for about 25% of rows, which were removed. Customer-level
   results therefore describe only identified customers.
-- Power BI reads from a local PostgreSQL database, so the dashboard must be refreshed
-  manually after the SQL pipeline is rerun.
-
+                              
 ---
 
 ## Author
