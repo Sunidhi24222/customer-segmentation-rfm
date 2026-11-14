@@ -199,8 +199,7 @@ The Power BI report has four pages:
   the pre-holiday gift-buying season. The December 2011 figure is incomplete because the data
   ends on 9 December.
 - **Revenue is concentrated in a few products.** The top product earns about £168K, but this
-  is inflated by one bulk order of 80,995 units. The top 20 products generate
-  [X]% of total revenue according to the Pareto chart.
+  is inflated by one bulk order of 80,995 units.
 
 See [`docs/key_insights.md`](docs/key_insights.md) for recommended actions for each segment.
 
