@@ -15,16 +15,5 @@ building `retail.online_retail_clean`.
 | 6 | Removed exact duplicate rows | 
 | Final | Clean table `online_retail_clean` | 
 
-Rows removed in steps 2 to 6 are counted after the earlier steps, so each step only
-removes rows that remain at that point. Run the counts in the order of the steps to get
-the figures for this table.
 
-## Notes
 
-- Step 1 is confirmed by the data profile: 135,080 rows have no CustomerID.
-- One bulk order of 80,995 units (PAPER CRAFT, LITTLE BIRDIE) is kept in the data
-  because it is a real recorded transaction. It is handled in the dashboard with an
-  excluded-outlier measure and documented in the README Limitations section.
-- Cancelled invoices are identified by an InvoiceNo that starts with the letter C.
-- The stock code C2 (postage) contains a digit, so it is kept by the rule in step 5.
-  Review it separately if you decide it is not a product.
