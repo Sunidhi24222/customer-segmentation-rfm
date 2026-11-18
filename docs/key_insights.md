@@ -1,8 +1,5 @@
 # Key Insights and Recommendations
 
-Figures are taken from the Power BI dashboard. Update them if the segment counts change
-after the frequency scoring fix.
-
 ## Champions
 - 1,109 customers (26% of the total) generate about 66% of revenue.
 - Average recency is about 13 days, and average frequency is about 10 orders.
