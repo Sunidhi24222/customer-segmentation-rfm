@@ -19,7 +19,13 @@ SELECT
     frequency,
     monetary,
     NTILE(5) OVER (ORDER BY recency_days DESC) AS r_score,  -- most recent = 5
-    NTILE(5) OVER (ORDER BY frequency ASC)     AS f_score,  -- most orders = 5
+    CASE  
+        WHEN frequency >= 10 THEN 5
+        WHEN frequency >= 6 THEN 4
+        WHEN frequency >= 3 THEN 3
+        WHEN frequency >= 2 THEN 2
+        ELSE 1
+    END AS f_score,                                         -- highest frequncy 5
     NTILE(5) OVER (ORDER BY monetary ASC)      AS m_score   -- highest spend = 5
 FROM customer_rfm;
 
